@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Fundo centraçizado */
+body{
+    background-color: #D5E1EF;
+    font-smooth: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card{
+
+    background-color: white;
+    width: 320px;
+    padding: 16px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.qr-bg{
+    background-color: #2C7DFA;
+    border-radius: 10px;
+    margin-bottom: 24px;
+    overflow: hidden;
+    line-height: 0;
+}
+.qr-bg img{
+    width: 100%;
+}
+
+h1{
+    color: #1f314f;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    padding: 0 10px
+
+}
+
+p{
+    color: #7d889e;
+    font-size: 15px;
+    margin-bottom: 24px;
+    padding: 0 15px
+}
